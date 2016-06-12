@@ -1,8 +1,9 @@
+#pragma once
 #ifndef GAMESTATE_HPP
 #define GAMESTATE_HPP
 
-//Vorwärtsdeklaration
-class Game; 
+
+class Game;
 
 class Gamestate
 {

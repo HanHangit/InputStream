@@ -14,8 +14,7 @@ MainMenuState::~MainMenuState()
 }
 
 void MainMenuState::HandleEvents(Game & game)
-{
-	
+{	
 		sf::Event event;
 		while (game.window.pollEvent(event)) {
 			if (event.type == sf::Event::Closed) {

@@ -1,4 +1,5 @@
 #include "GameTime.h"
+#include <iostream>
 
 GameTime::GameTime()
 {

@@ -1,5 +1,7 @@
+#pragma once
 #ifndef MAINMENUSTATE_HPP
 #define MAINMENUSTATE_HPP
+#include "Gamestate.hpp"
 #include "Game.h"
 
 class MainMenuState : public Gamestate

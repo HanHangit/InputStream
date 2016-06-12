@@ -1,12 +1,12 @@
+#pragma once
 #ifndef GAME_HPP
 #define GAME_HPP
 
 #include <iostream>
 #include <memory> //UniquePointer
-#include "SFML\Graphics.hpp"
+#include "Sfml-Bib.h"
 #include "Gamestate.hpp"
-#include "MainMenuState.h"
-#include "PlayState.h"
+#include "GameTime.h"
 
 class Game 
 {
@@ -19,6 +19,7 @@ public:
 
 	bool running;
 	sf::RenderWindow window;
+	GameTime gTime;
 	void ChangeState(gameStates newstate);
 
 	

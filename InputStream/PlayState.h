@@ -1,7 +1,9 @@
+#pragma once
 #ifndef PLAYSTATE_HPP
 #define PLAYSTATE_HPP
-#include "Game.h"
 #include "Gamestate.hpp"
+#include "Game.h"
+
 class PlayState : public Gamestate
 {
 public:
