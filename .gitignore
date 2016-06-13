@@ -148,6 +148,10 @@ publish/
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
+# Auﬂer Vektor DIngens
+!**/packages\sfml-system.2.3.2.0\build\native\include\SFML\System\Vector2.hpp
+!**/packages\sfml-system.2.3.2.0\build\native\include\SFML\System\Vector2.cpp
+
 
 # Windows Azure Build Output
 csx/
